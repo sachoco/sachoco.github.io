@@ -7,7 +7,7 @@ categories: wordpress wp-migrate-db-pro
 [Wordpress 4.2 tries to use utf8mb4 charactor set for the datebase][link] where it's possible.  
 I found this would cause an error when you are migrating WP from one server to anohter with WP Migrate DB Pro plugin.
 
-**Situation and Problem.**
+**Situation and Problem:**
 
 1. Local mySQL does support utf8mb4
 2. Remote server does not support utf8md4
@@ -20,5 +20,9 @@ I found this would cause an error when you are migrating WP from one server to a
 
 - Change the local mySQL charactor set back to utf8 manually
 
+
+**Update:**
+
+- It seems that this error occurs in conjunction with WPML.
 
 [link]:      https://make.wordpress.org/core/2015/04/02/the-utf8mb4-upgrade/
