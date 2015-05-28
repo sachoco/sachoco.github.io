@@ -25,4 +25,8 @@ I found this would cause an error when you are migrating WP from one server to a
 
 - It seems that this error occurs in conjunction with WPML.
 
+**Update (2015-05-26):**
+
+- The WP Migrate DB Pro developper told me that this issue will be fixed in the next update.
+
 [link]:      https://make.wordpress.org/core/2015/04/02/the-utf8mb4-upgrade/
